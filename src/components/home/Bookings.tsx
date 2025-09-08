@@ -3,9 +3,9 @@ import { useQuery } from '@tanstack/react-query';
 import React, { useCallback, useState } from 'react';
 import { ActivityIndicator, FlatList, RefreshControl, Text, TouchableOpacity, View } from 'react-native';
 import { fetchUserTickets } from '../../service/requests/bus';
+import { tabs } from '../../utils/dummyData';
 import BookItem from './BookItem';
 import Search from './Search';
-import { tabs } from '../../utils/dummyData';
 
 const Bookings = () => {
     const [selectedTab, setSelectedTab] = useState("All");
@@ -51,7 +51,7 @@ const Bookings = () => {
     // }
 
     return (
-        <View className=' p-2 bg-white'>
+        <View className='flex-1 p-2 bg-white'>
             <FlatList
                 showsVerticalScrollIndicator={false}
                 data={filteredBookings}

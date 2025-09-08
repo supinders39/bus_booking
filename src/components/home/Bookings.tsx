@@ -32,23 +32,23 @@ const Bookings = () => {
 
     if (isLoading) {
         return (
-            <View className='flex- items-center justify-center bg-white'>
+            <View className='flex-1 items-center justify-center bg-white'>
                 <ActivityIndicator size="large" color="teal" />
                 <Text className='text-gray-500 mt-2'>Fetching bookings...</Text>
             </View>
         )
     }
 
-    // if (isError) {
-    //     return (
-    //         <View className='items-center justify-center bg-white'>
-    //             <Text className='text-red-500'>Failed to fetch bookings. {error.message} </Text>
-    //             <TouchableOpacity onPress={() => refetch()} className='mt-4 py-2 px-3 bg-blue-500 rounded'>
-    //                 <Text className='text-white font-semibold'>Retry</Text>
-    //             </TouchableOpacity>
-    //         </View>
-    //     )
-    // }
+    if (isError) {
+        return (
+            <View className='items-center justify-center bg-white'>
+                <Text className='text-red-500'>Failed to fetch bookings. {error.message} </Text>
+                <TouchableOpacity onPress={() => refetch()} className='mt-4 py-2 px-3 bg-blue-500 rounded'>
+                    <Text className='text-white font-semibold'>Retry</Text>
+                </TouchableOpacity>
+            </View>
+        )
+    }
 
     return (
         <View className='flex-1 p-2 bg-white'>

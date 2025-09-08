@@ -1,3 +1,14 @@
+## Screenshots:
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.05.09.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.05.25.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.05.37.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.05.58.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.06.03.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.06.10.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.06.16.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.06.22.png)
+![Screenshot](./screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20-%202025-09-08%20at%2006.06.27.png)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
